@@ -1,0 +1,118 @@
+body{
+
+	background-color: #005b96;
+}
+.lander {
+	background-color: #222;
+	color: #aaa;
+	border-bottom: 2px solid #111;
+}
+.contact{
+    margin-top: 6em;
+    margin-left: 25px;
+    margin-right: 25px;    
+}
+.header {
+     text-align: center;
+	background-color: #03396c;
+    overflow: hidden;
+    border: 1px solid  #011f4b;
+    border-bottom: none;
+    padding: 20px;
+}
+.mail {
+    color: #222;
+    margin-top:-15px;
+    font-size: 30px;
+}
+.contact h2 {
+    margin-top: 0;
+    color: #222
+}
+.sub { 
+    background-color: #011f4b;
+    border: 1px solid  #001534;
+    border-top: none;
+    padding: 20px;
+    color: #999;
+    overflow: hidden;
+    text-align: center
+        
+}
+ .mid{
+    font-weight: bold;
+    text-align: center; 
+    padding: 45px;
+ }     
+.contact-form{
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+@media(min-width:786px){
+    .contact{
+        margin-left: 10px;
+        margin-right: 10px;    
+    }
+    .mid{
+        margin-top: 7em;
+    }
+    .contact-form{
+        margin-top: 2.5em;
+        margin-left: 2em;
+    }
+}
+/* Leave Alone unless changing the form focus colors*/
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);outline: 0 none;
+}
+
+/* -----------:)-------------*/        
+
+h4>a,h4>a:hover {
+    color: inherit;
+}
+input.form-control{
+    background-color: #03396c;
+    border: 1px solid  #011f4b;
+    color: #fff;
+    
+}
+.input-group-addon{
+    background-color: #011f4b;
+    border: 1px solid  #001534;
+}
+.form-control,.input-group-addon{
+    border-radius: 0;
+    
+}
+textarea.form-control{
+    background-color: #222;
+    border: 1px solid #000;
+    color: #aaa;
+}
+textarea {
+    resize: none;
+}
+.btn-cntn{
+    padding: 10px;
+}
+.btn-submit{
+    background-color: #03396c;
+    border-radius: 0px;
+    color: #aaa;
+    border: 1px solid #011f4b;
+    box-shadow: 0px 4px #001534; 
+}
+.btn-submit:hover{
+    background-color: #0560B6;
+    border-radius: 0px;
+    
+    border: 1px solid #03396c;
+    box-shadow: 0px 4px #1a355d; 
+}
+@media(min-width:786px){
+    .btn-cntn{
+        padding-top: 20px;
+        padding-left: 13em; 
+}
