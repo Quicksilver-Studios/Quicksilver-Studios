@@ -1,78 +1,101 @@
 <!DOCTYPE html>
-<html lang="en-US" >
-	<head>
-		<meta charset="utf-8">
-		<link rel="icon" type="image/x-icon" href="">
-		<link rel="stylesheet" href="Font/font-awesome/css/font-awesome.min.css">
-		<link rel = "stylesheet" type="text/css" href= "bootstrap.min.css">
- 		<link rel = "stylesheet" type="text/css" href= "main.css">
-		<title> Quicksilver Studios </title>
-	</head>
-	<body>
-		<div class = "jumbotron lander">
-			<div class = "container">
-				<h1> Welcome to Quicksilver! </h1>
-				<h3>Our website is currenty under development. We apologise for the inconveniance.</h3>
-			</div>
-		</div>
-		<div class ="row">
-			<div class = "col-md-1">
-			</div>
-			<div class = "col-md-4 contact">
-				<div class = "header">
-					<span class = "fa fa-stack mail">
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <title> Quicksilver Studios </title>
+</head>
+
+<body>
+    <div class="jumbotron lander">
+        <div class="container">
+            <h1> <img class="logo" src="images/logo.png"> Welcome to Quicksilver! </h1>
+            <h3>We are a Bangalore based design studio.</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4 contact">
+            <div class="header">
+                <span class="fa fa-stack mail">
 						   <i class = "fa fa-circle fa-stack-2x " style ="padding-top:2px"></i>
 						   <i class = "fa fa-envelope fa-stack-1x fa-inverse "></i>
 					</span>
-					<h2>Contact us </h2>
-				</div>
-                <div class ="sub">
-                    <h4><a href = "mailto: studios.quicksilver@gmail.com"><i class = "fa fa-send"></i> studios.quicksilver@gmail.com </a></h4>
-                </div>
-			</div> 
-            <div class = "col-md-1 mid">
-                <h2>OR</h2>
-			</div>
-            <div class = "col-md-5 contact-form">
-                <form role="form">
-                  <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group ">
-                            <label class = "sr-only" for="exampleInputEmail1">Email address (Necessary)</label>
-                            <div class = "input-group">
-                               <span class="input-group-addon"><i class = "fa fa-envelope fa-inverse "></i></span>
-                            <input type="email" class="form-control" id="InputEmail" placeholder="Enter Email (Necessary)">
-                            </div>    
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group ">
-                            <label class = "sr-only" for="exampleInputPhoneNumber1">Phone</label>
-                            <div class = "input-group">
-                                <span class="input-group-addon"><i class = "fa fa-phone fa-inverse "></i></span>
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone">
-                            </div>    
-                          </div>
-                        </div>
-                  </div>    
-                  <textarea id="MainText" class="form-control" placeholder="We would love to hear from you..." rows ="10" ></textarea>
-                  <div class="row">
-                        <div class="col-md-6">
-                            <div class="checkbox">
-                                <label>
-                                  <input type="checkbox"> I want to <strong>subscribe</strong> for Quicksilver Studios' mails and monthly offers.(You can unsubscribe at any time <i class = "fa fa-smile-o"></i>)
-                                </label>
-                              
-                              </div>
-                        </div>
-                        <div class="col-md-6 btn-cntn">
-                            <button type="submit" class="btn btn-primary btn-lg btn-submit">Submit</button>  
-                        </div>
-                      </div>
-                </form>
+                <h2>Contact us </h2>
             </div>
-		</div>
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script  src="bootstrap.js"> </script>
-	</body>
+            <div class="sub">
+                <h4><a href = "mailto: quicksilver@thenewcon.com"><i class = "fa fa-send"></i> quicksilver@thenewcon.com </a></h4>
+            </div>
+        </div>
+        <div class="col-md-2 mid">
+            <br>
+        </div>
+        <div class="col-md-4 contact">
+            <div class="header">
+                <span class="fa fa-stack mail">
+						   <i class = "fa fa-circle fa-stack-2x " style ="padding-top:2px"></i>
+						   <i class = "fa fa-briefcase fa-stack-1x fa-inverse"></i>
+					</span>
+                <h2>Work</h2>
+            </div>
+            <div class="sub">
+                <h4><a data-toggle="modal" data-target=".bs-example-modal-lg" class= "btn btn-default btn-xs">View Slideshow</a></h4>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="images/home.png">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/video.png">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/footer.png">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/gifts.png">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+</body>
+
 </html>

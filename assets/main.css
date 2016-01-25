@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+}
+body{
+	background-color: #005b96;
+}
+.lander {
+	background-color: #222;
+	color: #aaa;
+	border-bottom: 2px solid #111;
+}
+/*.contact{
+    margin-top: 6em;
+    margin-left: 25px;
+    margin-right: 25px;    
+}*/
+.header {
+    text-align: center;
+	background-color: #03396c;
+    overflow: hidden;
+    border: 1px solid  #011f4b;
+    border-bottom: none;
+    padding: 20px;
+}
+.mail {
+    color: #222;
+    font-size: 30px;
+}
+.contact h2 {
+    margin-top: 0;
+    color: #aaa;
+}
+.sub { 
+    background-color: #011f4b;
+    border: 1px solid  #001534;
+    border-top: none;
+    padding: 20px;
+    color: #999;
+    overflow: hidden;
+    text-align: center
+        
+}
+ .mid{
+    font-weight: bold;
+    text-align: center; 
+    padding: 45px;
+ }     
+.showcase{
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+@media(min-width:786px){
+    .contact{
+        margin-left: 10px;
+        margin-right: 10px;    
+    }
+    .mid{
+        margin-top: 7em;
+    }
+    .showcase{
+        margin-top: 2.5em;
+        margin-left: 2em;
+    }
+}
+  
+.row {
+    padding: 15px;
+}
+
+.logo {
+    max-height: 80px;
+}
+h4>a,h4>a:hover {
+    color: inherit;
+}
+
+.showcase{
+    background-color: #222;
+    border: 1px solid #000;
+    color: #aaa;
+}
+a.btn {
+    background-color: #222;
+    border-radius: 0;
+    color: #fff;
+}
+.modal.fade {
+    background-color: rgba(1,1,1,0.5);
+}
